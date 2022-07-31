@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend+Deca");
+@import url("https://fonts.googleapis.com/css?family=Big Shoulders Display");
+
+* {
+  box-sizing: border-box;
+}
+
+.grid1 {
+  width: 100%;
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+  grid-area: a;
+  grid-column-start:1 ;
+  grid-column-end: 2;
+  grid-auto-rows: minmax(min-content, max-content);
+}
+
+main {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-areas: 'a b c';
+  height: 100vh;
+  background-color: white;
+  
+}
+
+.grid1 button {
+  color: hsl(31, 77%, 52%);
+  background-color: hsl(0, 0%, 95%);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 35px;
+  border: none;
+  font-size: 15px;
+  width: 80%;
+  height: 40px;
+  font-weight: 700;
+}
+
+/*grid2*/
+.grid2 {
+  width: 100%;
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  grid-area: b;
+  grid-column-start: auto;
+  grid-column-end: auto;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-auto-rows: minmax(min-content, max-content);
+}
+
+.grid2 button {
+  color: hsl(184, 100%, 22%);
+  background-color: hsl(0, 0%, 95%);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 35px;
+  border: none;
+  font-size: 15px;
+  width:80%;
+  height: 40px;
+  font-weight: 700;
+}
+
+/*grid3*/
+.grid3 {
+  width: 100%;
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+  grid-area: c;
+  height: auto;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-auto-rows: minmax(min-content, max-content);
+}
+
+.grid3 button {
+  color: hsl(179, 100%, 13%);
+  background-color: hsl(0, 0%, 95%);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 35px;
+  border: none;
+  font-size: 15px;
+  width:80%;
+  height: 40px;
+  font-weight: 700;
+}
+
+#heading {
+  padding-top: 10%;
+  color: hsl(0, 0%, 95%);
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+}
+
+#first {
+  padding-top: 5%;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: Lexend Deca;
+  font-weight: 400;
+}
+
+.content {
+  padding-left: 20%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#button:hover {
+  color: white;
+  background-color: transparent;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+img {
+  padding-top: 7%;
+}
+
+.bt {
+  padding-top: 30%;
+}
+
+body {
+  font-size: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: orange;
+  background-color: black;
+  font-size: large;
+   
+ }
+
+ li{
+  list-style-type: none;
+ }
+
